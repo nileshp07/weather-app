@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background: rgba(0, 0, 0, 0.7)url('weather.jpg');
+    background-size: cover;
+    background-position: initial;
+    background-blend-mode: darken; */
+    background-color: rgb(122 126 126);
+}
+
+.container {
+    letter-spacing: 0.2rem;
+    font-size: 1.3rem;
+    max-width: 400px;
+}
+
+.card {
+    border: none;
+}
+
+.icon img {
+    position: relative;
+    top: -50px;
+    margin-bottom: -50px;
+    border-radius: 50%;
+}
